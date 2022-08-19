@@ -8,12 +8,13 @@ Você foi convidado a escrever um programa que liste todas as diferentes palavra
 Considere que uma palavra é definida como uma sequência de letras, maiúsculas ou minúsculas, palavras com apenas uma letra também deverão ser consideradas. 
 Ademais o seu programa deverá ser "CaSe InSeNsItIvE", por exemplo, palavras como "Apple", "apple" ou "APPLE" deverão ser consideradas como mesma palavra. 
 Para garantir que não tenhamos palavras repetidas no dicionário do Samuel, para cada palavra lida no arquivo texto deve feita uma busca no dicionário, caso a palavra já conste no dicionário a palavra lida deve ser descartada, caso contrário a palavra deve ser inserida no dicionário de forma a manter a ordem alfabética.
+
 Importante: 
-• Para armazenar o dicionário de palavras use um vetor de String, não sendo permito o uso de classes prontas de lista do Java para armazenar as palavras, por exemplo a classe Arraylist. 
-Considere que no arquivo texto não teremos mais de 100 palavras diferentes, ou seja, você pode declarar um vetor de String com 100 posições. 
-• A busca no dicionário deve ser implementada utilizando uma função recursiva (sem loops) que faz busca linear no vetor de palavras (vetor de String). 
-• Para inserir uma nova palavra no vetor de String use uma função recursiva (sem loops). 
-Importante, não é para inserir todas as palavras no vetor e depois ordenar, e sim a cada palavra nova, esta deverá ser inserida no vetor de palavras qucontinuará ordenado.
+     • Para armazenar o dicionário de palavras use um vetor de String, não sendo permito o uso de classes prontas de lista do Java para armazenar as palavras, por exemplo a classe Arraylist. 
+     Considere que no arquivo texto não teremos mais de 100 palavras diferentes, ou seja, você pode declarar um vetor de String com 100 posições. 
+     • A busca no dicionário deve ser implementada utilizando uma função recursiva (sem loops) que faz busca linear no vetor de palavras (vetor de String). 
+     • Para inserir uma nova palavra no vetor de String use uma função recursiva (sem loops). 
+     Importante, não é para inserir todas as palavras no vetor e depois ordenar, e sim a cada palavra nova, esta deverá ser inserida no vetor de palavras que continuará ordenado.
 
 Entrada do programa:
 O arquivo de entrada contém várias linhas de texto, cada uma delas com várias palavras separadas por um espaço em branco (“ “), o fim da entrada é determinado por um ponto (“.”) em uma linha com somente esse caractere. 
@@ -43,5 +44,5 @@ liste todas as diferentes palavras
 dicionário de palavras use um vetor de String[100]
 	busca no dicionário implementada utilizando uma função recursiva
 	inserir uma nova palavra no vetor de String use uma função recursiva
-imprimir uma lista de diferentes palavras / uma por llinha / minusculas / ordem alfabética
+imprimir uma lista de diferentes palavras / uma por linha / minusculas / ordem alfabética
 
